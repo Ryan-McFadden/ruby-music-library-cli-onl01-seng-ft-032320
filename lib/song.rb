@@ -29,6 +29,12 @@ class Song
     Song.new(name).save
   end
   
+  def find_by_name(name)
+    Song.all.select do |song|
+      song.name == name
+    end
+  end
+  
   def self.all 
     @@all 
   end
