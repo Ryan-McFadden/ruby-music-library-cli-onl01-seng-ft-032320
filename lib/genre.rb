@@ -25,7 +25,7 @@ class Genre
   end
   
   def self.destroy_all
-    @all.clear
+    @@all.clear
   end
   
 end
