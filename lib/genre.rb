@@ -19,10 +19,6 @@ class Genre
     songs.uniq
   end
   
-  def self.create(name)
-    Song.new(name).save
-  end
-  
   def self.all 
     @@all 
   end
