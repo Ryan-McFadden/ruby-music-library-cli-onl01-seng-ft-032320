@@ -18,7 +18,11 @@ class Artist
   end
   
   def genres
-    Song.all.each do |song|
+    songs = @songs.collect do |song|
+      song.genre 
+    end
+    songs.uniq
+  end
       
   def save
     @@all << self
