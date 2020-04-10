@@ -30,7 +30,7 @@ class Artist
   end
   
   def self.create(name)
-    artist = Artist.new(name).save
+    artist = self.new(name).save
     artist
   end
   
