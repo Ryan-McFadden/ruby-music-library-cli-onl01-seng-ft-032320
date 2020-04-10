@@ -13,6 +13,7 @@ class Song
   def genre=(genre)
     @genre = genre
     
+    
   
   def save
     @@all << self
