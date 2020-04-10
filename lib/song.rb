@@ -29,6 +29,14 @@ class Song
     Song.new(name).save
   end
   
+  def self.new_from_filename(file)
+    
+  end
+  
+  def self.create_from_filename(file)
+    
+  end
+  
   def find_by_name(name)
     @@all.select do |song|
       song.name == name
