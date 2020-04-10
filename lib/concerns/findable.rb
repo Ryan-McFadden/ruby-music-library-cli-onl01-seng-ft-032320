@@ -1,4 +1,4 @@
-module Concerns::Modules
+module Concerns::Findable
   
   def find_by_name(name)
     self.all.select do |song|
