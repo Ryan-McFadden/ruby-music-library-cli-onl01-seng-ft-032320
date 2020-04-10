@@ -20,6 +20,12 @@ class Genre
     songs.uniq
   end
   
+  def self.create(name)
+    genre = self.new(name)
+    genre.save
+    genre
+  end
+  
   def self.all 
     @@all 
   end
