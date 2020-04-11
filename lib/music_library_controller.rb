@@ -23,7 +23,10 @@ class MusicLibraryController
     
     if input = "exit"
       exit
-    elsif 
+    elsif input = "list songs"
+      list_songs
+    elsif input = "list artists"
+      
   end
   
   def list_songs
