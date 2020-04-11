@@ -42,7 +42,7 @@ class Song
   end
   
   def self.create_from_filename(file)
-    
+    self.new_from_filename(file).save
   end
   
   def find_by_name(name)
