@@ -39,7 +39,7 @@ class MusicLibraryController
   end
   
   def list_songs
-    
+    Song.all.sort do |song|
   end
   
   def list_artists
