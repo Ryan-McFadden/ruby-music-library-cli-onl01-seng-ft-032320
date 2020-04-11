@@ -40,7 +40,7 @@ class MusicLibraryController
   
   def list_songs
     Song.all.sort.each_with_index do |song, index|
-      
+      puts "#{index + 1}"
   end
   
   def list_artists
