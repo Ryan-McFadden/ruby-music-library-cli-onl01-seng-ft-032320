@@ -16,6 +16,8 @@ class MusicLibraryController
     puts "To see a list of songs of a genre, enter "list songs by genre"."
     puts "To play a song, enter "play song"."
     puts "to exit the application, enter "exit"."
+    puts " "
+    puts "What would you like to do Operator?"
   end
   
   def list_songs
