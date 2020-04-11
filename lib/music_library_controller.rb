@@ -11,7 +11,7 @@ class MusicLibraryController
     puts "To see a full list of songs, enter "list songs"."
     puts "To see a full list of artists, enter "list artists"."
     puts "To see a full list of genres, enter "list genres"."
-    puts "To see a list of songs by a "
+    puts "To see a list of songs by a"
   end
   
   def list_songs
