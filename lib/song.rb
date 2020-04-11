@@ -37,7 +37,7 @@ class Song
     artist_name = file[0]
     genre_name = file[2].chomp(".mp3")
     
-    
+    artist
     
     self.new(song_name, artist_name, genre_name)
     
