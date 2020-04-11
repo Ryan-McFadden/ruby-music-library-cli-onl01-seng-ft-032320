@@ -8,9 +8,9 @@ class MusicLibraryController
   
   def call
     puts "Welcome to your music library!"
-    puts "To see a full list of songs, enter 'list songs'."
-    puts "To see a full list of artists, enter 'list artists'."
-    puts "To see a full list of genres, enter 'list genres'."
+    puts "To list all of your songs, enter 'list songs'."
+    puts "To list all of your artists, enter 'list artists'."
+    puts "To list all of your genres, enter 'list genres'."
     puts "To see a list of songs by a artist, enter 'list songs by artist'."
     puts "To see a list of songs of a genre, enter 'list songs by genre'."
     puts "To play a song, enter 'play song'."
