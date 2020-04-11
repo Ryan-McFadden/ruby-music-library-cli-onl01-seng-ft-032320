@@ -21,7 +21,8 @@ class MusicLibraryController
     
     input = gets.strip.downcase
     
-    if
+    if input = "exit"
+      exit
   end
   
   def list_songs
