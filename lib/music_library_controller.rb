@@ -19,7 +19,7 @@ class MusicLibraryController
     puts " "
     puts "What would you like to do Operator?"
     
-    input = 
+    input = gets.strip.downcase
   end
   
   def list_songs
