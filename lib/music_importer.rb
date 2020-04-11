@@ -8,7 +8,7 @@ class MusicImporter
     
   end
   
-  def self.import
+  def import
     
   end
   
