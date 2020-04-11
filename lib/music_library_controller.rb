@@ -39,7 +39,8 @@ class MusicLibraryController
   end
   
   def list_songs
-    Song.all.sort do |song|
+    Song.all.sort.each_with_index do |song, index|
+      
   end
   
   def list_artists
