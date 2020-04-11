@@ -20,6 +20,8 @@ class MusicLibraryController
     puts "What would you like to do Operator?"
     
     input = gets.strip.downcase
+    
+    if
   end
   
   def list_songs
