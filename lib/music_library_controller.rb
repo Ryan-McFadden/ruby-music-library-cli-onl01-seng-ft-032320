@@ -18,6 +18,8 @@ class MusicLibraryController
     puts "to exit the application, enter "exit"."
     puts " "
     puts "What would you like to do Operator?"
+    
+    input = 
   end
   
   def list_songs
