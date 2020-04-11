@@ -7,7 +7,7 @@ class MusicImporter
   
   def files
     Dir.entries(@file).select! do |file|
-      
+      file.end_with?(".mp3")
   end
   
   def import
