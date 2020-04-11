@@ -35,7 +35,7 @@ class Song
     file = filename.split(" - ")
     song_name = file[1]
     artist_name = file[0]
-    genre_name = file[2].chomp!([.mp3])
+    genre_name = file[2].chomp!(/.mp3/)
     
     self.new(song_name, artist_name, genre_name)
     
