@@ -37,7 +37,8 @@ class Song
     artist_name = file[0]
     genre_name = file[2].chomp(".mp3")
     
-    artist
+    artist = Artist.find_or_create_by_name(artist_name)
+    genre = Genre.find_or_create_by_name(genre_name)
     
     self.new(song_name, artist_name, genre_name)
     
