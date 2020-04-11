@@ -13,7 +13,7 @@ class MusicImporter
   
   def import
     files.each do |file|
-      
+      Song.crea
   end
   
 end
