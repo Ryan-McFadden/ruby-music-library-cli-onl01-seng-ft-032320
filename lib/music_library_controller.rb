@@ -11,7 +11,7 @@ class MusicLibraryController
     puts "To list all of your songs, enter 'list songs'."
     puts "To list all of the artists in your library, enter 'list artists'."
     puts "To list all of the genres in your library, enter 'list genres'."
-    puts "To see a list of songs by a artist, enter 'list songs by artist'."
+    puts "To list all of the songs by a artist, enter 'list songs by artist'."
     puts "To see a list of songs of a genre, enter 'list songs by genre'."
     puts "To play a song, enter 'play song'."
     puts "to exit the application, enter 'exit'."
